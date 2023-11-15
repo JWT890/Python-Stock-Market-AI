@@ -1,5 +1,5 @@
-def get_verse(book, chapter, verse, filename="bible.txt.txt"):
-    with open("bible.txt.txt", 'r') as file:
+def get_verse(book, chapter, verse, filename="bible.txt"):
+    with open("bible.txt", 'r') as file:
         lines = file.readlines()
 
     for line in lines:
