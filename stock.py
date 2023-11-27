@@ -1,7 +1,7 @@
 import requests
 import matplotlib.pyplot as plt
 
-ALPHA_VANTAGE_API_KEY = '' # Get your own free API key from AlphaVantage
+ALPHA_VANTAGE_API_KEY = 'U8Z4PXBXLFGXRXXZ' # Get your own free API key from AlphaVantage
 
 def get_stock_data(symbol):
     base_url = 'https://www.alphavantage.co/query'
@@ -32,7 +32,7 @@ def visualize_stock_data(data):
     plt.xlabel('Date')
     plt.ylabel('Closing Price')
     plt.title('Stock Price Over Time')
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=70)
     plt.legend()
     plt.show()
 
